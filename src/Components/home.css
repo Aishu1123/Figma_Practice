@@ -1,0 +1,24 @@
+.second-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 1440px;
+    gap: 16px;
+    height: 190px;
+    padding: 0px 144px 0px 144px;
+  }
+  
+  .second-container h2 {
+    font-weight: 600;
+    font-size: 36px;
+  }
+  .second-container div p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .second-container-inner-second > img {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+  }
